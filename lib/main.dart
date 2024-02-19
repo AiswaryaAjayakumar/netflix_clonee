@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:netflix_clone/view/home_screen/home_screen.dart';
+import 'package:netflix_clone/view/splash_screen/splash_screens.dart';
 import 'package:netflix_clone/view/user_name_screen/user_name_screen.dart';
 //import 'package:netflix_clone/view/home_screen/home_screen.dart';
 //import 'package:netflix_clone/view/user_name_screen/splash/splash_screen.dart';
@@ -17,7 +18,7 @@ class Netflix extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomeScreen(),
+      home: SplashScreen(),
     );
   }
 }

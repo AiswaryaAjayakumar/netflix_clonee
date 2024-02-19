@@ -1,8 +1,12 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
 import 'package:flutter/material.dart';
-import 'package:netflix_clone/utils/constants.dart';
+import 'package:netflix_clone/utils/color_constants.dart';
+import 'package:netflix_clone/view/coming_soon/coming_soon.dart';
+import 'package:netflix_clone/view/download_screen/download_screen.dart';
 import 'package:netflix_clone/view/home_screen/home_screen.dart';
+import 'package:netflix_clone/view/more_screen/more_screen.dart';
+import 'package:netflix_clone/view/search_scrreen/search_screen.dart';
 // import 'package:netflix_december/utils/color_constants/color_constants.dart';
 // import 'package:netflix_december/view/coming_soonpage/coming_soonpage.dart';
 // import 'package:netflix_december/view/downloads/downloads_page.dart';
@@ -19,11 +23,11 @@ class BottomNav extends StatefulWidget {
 
 class _BottomNavState extends State<BottomNav> {
   List pages = [
-   HomeScreen()
-    // SearchScreen(),
-    // ComingSoon(),
-    // DownloadPage(),
-    // MorePage()
+    HomeScreen(),
+    SearchScreen(),
+    ComingSoon(),
+    DownloadScreen(),
+    MoreScreen(),
   ];
   int selectedindex = 0;
   @override

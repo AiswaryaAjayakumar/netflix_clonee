@@ -2,6 +2,9 @@
 
 import 'package:flutter/material.dart';
 import 'package:netflix_clone/utils/color_constants.dart';
+import 'package:netflix_clone/utils/global_widgets/gllobal_user_name.dart';
+import 'package:netflix_clone/utils/image_constants.dart';
+import 'package:netflix_clone/utils/profile_images.dart';
 //import 'package:netflix_clone/utils/global_widgets/gllobal_user_name.dart';
 
 class MoreScreen extends StatelessWidget {
@@ -17,17 +20,49 @@ class MoreScreen extends StatelessWidget {
           child: Column(
             children: [
               Container(
-                height: 80,
+                height: 150,
                 child: ListView.separated(
-                  itemCount: 4,
+                  itemCount: ImageDb.profileImages.length + 1,
                   scrollDirection: Axis.horizontal,
                   shrinkWrap: true,
-                  physics: NeverScrollableScrollPhysics(),
-                  itemBuilder: (context, index) => Container(
-                    height: 74,
-                    width: 74,
-                    color: Colors.amber,
-                  ),
+                  itemBuilder: (context, index) => index <
+                          ImageDb.profileImages.length
+                      ? GlobalUserNameScreen(
+                          name: ImageDb.profileImages[index]["name"]!,
+                          imgUrl: ImageDb.profileImages[index]["image"]!,
+                          height: index == 0 ? 100 : 60,
+                          width: index == 0 ? 100 : 60,
+                        )
+                      : Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            SizedBox(
+                              height: 70,
+                              width: 70,
+                              child: Center(
+                                child: Container(
+                                  height: 50,
+                                  width: 50,
+                                  decoration: BoxDecoration(
+                                      borderRadius: BorderRadius.circular(10),
+                                      color: ColorConstants.mainWhite,
+                                      image: DecorationImage(
+                                          image: AssetImage(
+                                            ImageConstants.profileImageAdd,
+                                          ),
+                                          fit: BoxFit.cover)),
+                                ),
+                              ),
+                            ),
+                            SizedBox(
+                              height: 10,
+                            ),
+                            Text(
+                              "Add",
+                              style: TextStyle(color: ColorConstants.mainWhite),
+                            )
+                          ],
+                        ),
                   separatorBuilder: (context, index) => SizedBox(
                     width: 5,
                   ),

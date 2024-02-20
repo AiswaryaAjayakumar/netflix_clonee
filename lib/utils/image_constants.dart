@@ -3,8 +3,10 @@ class ImageConstants {
 
   static const String profileImage1 = "assets/images/Rectangle 2.png";
   static const String profileImage2 = "assets/images/Rectangle 3.png";
-  static const profileImage3 = "assets/images/Rectangle 4.png";
+  static const String profileImage3 = "assets/images/Rectangle 4.png";
+
   static const String profileKid = "assets/images/Rectangle 5.png";
+  static const String profileImageAdd = "assets/images/Union.png";
   // static const String profileAdd = "assets/images/Union.png";
 
   static List<String> imageUrl1 = [
@@ -15,60 +17,57 @@ class ImageConstants {
     "https://assets.gadgets360cdn.com/pricee/assets/product/202303/Leo_1678967552.jpg"
   ];
   static List<Map<String, String>> serachImageUrl = [
-   
-
- {
-    "image": "https://aniportalimages.s3.amazonaws.com/media/details/ANI-20221016054738.jpeg",
-    "title": "Midnight Mirage"
-   },
-
- {
-    "image": "https://aniportalimages.s3.amazonaws.com/media/details/ANI-20221016054738.jpeg",
-    "title": "Eternal Echo"
-   },
-
- {
-    "image": "https://aniportalimages.s3.amazonaws.com/media/details/ANI-20221016054738.jpeg",
-    "title": "Whispering Shadows"
-   },
-
-{
-    "image": "https://aniportalimages.s3.amazonaws.com/media/details/ANI-20221016054738.jpeg",
-    "title": "Beyond Horizon"
-   },
-{
-    "image": "https://aniportalimages.s3.amazonaws.com/media/details/ANI-20221016054738.jpeg",
-    "title": "Stellar Secrets"
-   },
-
- {
-    "image": "https://aniportalimages.s3.amazonaws.com/media/details/ANI-20221016054738.jpeg",
-    "title": "Infinite Illusion"
-   },
-
- {
-    "image": "https://aniportalimages.s3.amazonaws.com/media/details/ANI-20221016054738.jpeg",
-    "title": "Moonlit Melody"
-   },
-
- {
-    "image": "https://aniportalimages.s3.amazonaws.com/media/details/ANI-20221016054738.jpeg",
-    "title": "Laughing Labyrinth"
-   },
-
- {
-    "image": "https://aniportalimages.s3.amazonaws.com/media/details/ANI-20221016054738.jpeg",
-    "title": "Dramatic Destiny"
-   },
-
- {
-    "image": "https://aniportalimages.s3.amazonaws.com/media/details/ANI-20221016054738.jpeg",
-    "title": "Action Odyssey"
-   }
-
-
+    {
+      "image":
+          "https://aniportalimages.s3.amazonaws.com/media/details/ANI-20221016054738.jpeg",
+      "title": "Midnight Mirage"
+    },
+    {
+      "image":
+          "https://aniportalimages.s3.amazonaws.com/media/details/ANI-20221016054738.jpeg",
+      "title": "Eternal Echo"
+    },
+    {
+      "image":
+          "https://aniportalimages.s3.amazonaws.com/media/details/ANI-20221016054738.jpeg",
+      "title": "Whispering Shadows"
+    },
+    {
+      "image":
+          "https://aniportalimages.s3.amazonaws.com/media/details/ANI-20221016054738.jpeg",
+      "title": "Beyond Horizon"
+    },
+    {
+      "image":
+          "https://aniportalimages.s3.amazonaws.com/media/details/ANI-20221016054738.jpeg",
+      "title": "Stellar Secrets"
+    },
+    {
+      "image":
+          "https://aniportalimages.s3.amazonaws.com/media/details/ANI-20221016054738.jpeg",
+      "title": "Infinite Illusion"
+    },
+    {
+      "image":
+          "https://aniportalimages.s3.amazonaws.com/media/details/ANI-20221016054738.jpeg",
+      "title": "Moonlit Melody"
+    },
+    {
+      "image":
+          "https://aniportalimages.s3.amazonaws.com/media/details/ANI-20221016054738.jpeg",
+      "title": "Laughing Labyrinth"
+    },
+    {
+      "image":
+          "https://aniportalimages.s3.amazonaws.com/media/details/ANI-20221016054738.jpeg",
+      "title": "Dramatic Destiny"
+    },
+    {
+      "image":
+          "https://aniportalimages.s3.amazonaws.com/media/details/ANI-20221016054738.jpeg",
+      "title": "Action Odyssey"
+    }
   ];
-
 
   static List<Map<String, String>> arrivalUrl = [
     {

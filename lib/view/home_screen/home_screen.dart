@@ -1,5 +1,6 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables, sort_child_properties_last
 
+import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:netflix_clone/utils/color_constants.dart';
 import 'package:netflix_clone/utils/image_constants.dart';
@@ -23,13 +24,21 @@ class _HomeScreenState extends State<HomeScreen> {
           children: [
             Stack(
               children: [
-                Container(
-                  height: 400,
-                  decoration: BoxDecoration(
-                      image: DecorationImage(
-                          image: AssetImage("assets/images/Rectangle 26.png"),
-                          fit: BoxFit.cover)),
-                ),
+                CarouselSlider(
+                    options: CarouselOptions(
+                        height: 450,
+                        viewportFraction: 1,
+                        autoPlay: true,
+                        autoPlayAnimationDuration: Duration(seconds: 1)),
+                    items: List.generate(
+                        ImageConstants.imageUrl1.length,
+                        (index) => Container(
+                              decoration: BoxDecoration(
+                                  image: DecorationImage(
+                                      image: NetworkImage(
+                                          ImageConstants.imageUrl1[index]),
+                                      fit: BoxFit.cover)),
+                            ))),
                 Padding(
                   padding: const EdgeInsets.only(left: 8, right: 40, top: 30),
                   child: Row(
@@ -158,7 +167,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
             CustomMovieCard(
               isOptionVisible: true,
-              imageList: ImageConstants.imageUrl1,
+              imageList: ImageConstants.imageUrl2,
               title: "Continue watching for",
               height: 230,
               width: 120,
@@ -170,7 +179,7 @@ class _HomeScreenState extends State<HomeScreen> {
               width: 120,
             ),
             CustomMovieCard(
-              imageList: ImageConstants.imageUrl1,
+              imageList: ImageConstants.imageUrl3,
               title: "Trending Now",
               height: 230,
               width: 120,

@@ -87,6 +87,9 @@ class MoreScreen extends StatelessWidget {
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
+                  SizedBox(
+                    height: 10,
+                  ),
                   Container(
                     color: ColorConstants.mainGrey,
                     child: Padding(

@@ -2,7 +2,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:netflix_clone/utils/color_constants.dart';
-import 'package:netflix_clone/utils/image_constants.dart';
 
 class CustomNewArrivals extends StatelessWidget {
   const CustomNewArrivals(

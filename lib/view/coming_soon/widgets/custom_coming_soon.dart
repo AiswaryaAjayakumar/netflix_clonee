@@ -1,4 +1,4 @@
-// ignore_for_file: prefer_const_constructors
+// ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
 import 'package:flutter/material.dart';
 import 'package:netflix_clone/utils/color_constants.dart';
@@ -87,7 +87,7 @@ class CustomComingSoon extends StatelessWidget {
             height: 10,
           ),
           Text(
-            des ?? "",
+            des,
             maxLines: 3,
             overflow: TextOverflow.ellipsis,
             textAlign: TextAlign.justify,

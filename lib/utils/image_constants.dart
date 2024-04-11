@@ -16,40 +16,51 @@ class ImageConstants {
     "https://m.media-amazon.com/images/M/MV5BMzA2ZTgxNzgtYjM3Ni00NTI1LWJiMjAtMWViNWUzNzIwYTgwXkEyXkFqcGdeQXVyMTMxODA4Njgx._V1_.jpg",
     "https://assets.gadgets360cdn.com/pricee/assets/product/202303/Leo_1678967552.jpg"
   ];
+  static List<String> imageUrl2 = [
+    "https://m.media-amazon.com/images/M/MV5BNDgwY2YyNjctZTMxZC00ZTRlLThhN2QtMTAwYjUyODcyZDYxXkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_FMjpg_UX1000_.jpg"
+        "https://m.media-amazon.com/images/I/815qtzaP9iL._AC_UF1000,1000_QL80_.jpg",
+    "https://m.media-amazon.com/images/M/MV5BMGFlNWM0NWYtMWI3OS00OTMyLTg0YWYtNjhlNjRiYWUyZjRlXkEyXkFqcGdeQXVyMTUzNTgzNzM0._V1_FMjpg_UX1000_.jpg",
+    "https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg"
+  ];
+  static List<String> imageUrl3 = [
+    "https://upload.wikimedia.org/wikipedia/en/c/c3/Ponniyin_Selvan_I.jpg",
+    "https://m.media-amazon.com/images/S/pv-target-images/a3a050c4d5e08db8003b8bc1c862de37985083682b801926b7289bceea316ea3.jpg",
+    "https://m.media-amazon.com/images/M/MV5BYmJmM2Q4NmMtYThmNC00ZjRlLWEyZmItZTIwOTBlZDQ3NTQ1XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+    "https://m.media-amazon.com/images/M/MV5BMTUxMzQyNjA5MF5BMl5BanBnXkFtZTYwOTU2NTY3._V1_FMjpg_UX1000_.jpg"
+  ];
   static List<Map<String, String>> serachImageUrl = [
     {
       "image":
-          "https://aniportalimages.s3.amazonaws.com/media/details/ANI-20221016054738.jpeg",
+          "https://i.ytimg.com/vi/JelJAgIs9gs/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGHIgSig3MA8=&rs=AOn4CLATsDn-xz2KkaJGBmMeEVlGg5Nxjw",
       "title": "Midnight Mirage"
     },
     {
       "image":
-          "https://aniportalimages.s3.amazonaws.com/media/details/ANI-20221016054738.jpeg",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRb2NhQfwYensBDOKpxIrSI5mNv4ZnwahRPeemuSzh9Q&s",
       "title": "Eternal Echo"
     },
     {
       "image":
-          "https://aniportalimages.s3.amazonaws.com/media/details/ANI-20221016054738.jpeg",
+          "https://m.media-amazon.com/images/I/71oV8TSxypL._AC_UF1000,1000_QL80_.jpg",
       "title": "Whispering Shadows"
     },
     {
       "image":
-          "https://aniportalimages.s3.amazonaws.com/media/details/ANI-20221016054738.jpeg",
+          "https://m.media-amazon.com/images/I/718-Up30r+L._AC_UF1000,1000_QL80_.jpg",
       "title": "Beyond Horizon"
     },
     {
       "image":
-          "https://aniportalimages.s3.amazonaws.com/media/details/ANI-20221016054738.jpeg",
+          "https://m.media-amazon.com/images/I/31Smx1RR6gL._AC_UF1000,1000_QL80_.jpg",
       "title": "Stellar Secrets"
     },
     {
       "image":
-          "https://aniportalimages.s3.amazonaws.com/media/details/ANI-20221016054738.jpeg",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8w4mCz-k99PsSZy873QNDAxIGB0u5ZkKmgwARAaHs3w&s",
       "title": "Infinite Illusion"
     },
     {
-      "image":
-          "https://aniportalimages.s3.amazonaws.com/media/details/ANI-20221016054738.jpeg",
+      "image": "https://i.ytimg.com/vi/tBF8LuXZaT4/sddefault.jpg",
       "title": "Moonlit Melody"
     },
     {
@@ -59,12 +70,12 @@ class ImageConstants {
     },
     {
       "image":
-          "https://aniportalimages.s3.amazonaws.com/media/details/ANI-20221016054738.jpeg",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRb2NhQfwYensBDOKpxIrSI5mNv4ZnwahRPeemuSzh9Q&s",
       "title": "Dramatic Destiny"
     },
     {
       "image":
-          "https://aniportalimages.s3.amazonaws.com/media/details/ANI-20221016054738.jpeg",
+          "https://m.media-amazon.com/images/I/718-Up30r+L._AC_UF1000,1000_QL80_.jpg",
       "title": "Action Odyssey"
     }
   ];
@@ -79,10 +90,10 @@ class ImageConstants {
     },
     {
       "image":
-          "https://assets.gadgets360cdn.com/pricee/assets/product/202303/Leo_1678967552.jpg",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeO3hsz8A07Iby4UtPaA3U-bDbXl99_xmCYNfdsuFYQQ&s",
       "title": "New Arival",
-      "name": "Salaar",
-      "date": "6 Nov"
+      "name": "The Matrix",
+      "date": "7 Dec"
     },
   ];
   static List<Map<String, dynamic>> notificationMovieList = [
@@ -92,7 +103,7 @@ class ImageConstants {
       "description":
           "A thief who enters the dreams of others to steal secrets from their subconscious.",
       "imageUrl":
-          "https://i.pinimg.com/564x/f9/f4/0e/f9f40eda4f4571a5a4d4a7e0db5701cf.jpg",
+          "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p7825626_p_v8_af.jpg",
     },
     {
       "title": "The Shawshank Redemption",
@@ -100,7 +111,7 @@ class ImageConstants {
       "description":
           "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
       "imageUrl":
-          "https://i.pinimg.com/564x/f9/f4/0e/f9f40eda4f4571a5a4d4a7e0db5701cf.jpg",
+          "https://m.media-amazon.com/images/I/815qtzaP9iL._AC_UF1000,1000_QL80_.jpg",
     },
     {
       "title": "The Dark Knight",
@@ -108,7 +119,7 @@ class ImageConstants {
       "description":
           "When the menace known as The Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham.",
       "imageUrl":
-          "https://i.pinimg.com/564x/f9/f4/0e/f9f40eda4f4571a5a4d4a7e0db5701cf.jpg",
+          "https://m.media-amazon.com/images/S/pv-target-images/e9a43e647b2ca70e75a3c0af046c4dfdcd712380889779cbdc2c57d94ab63902.jpg",
     },
     {
       "title": "Pulp Fiction",
@@ -116,7 +127,7 @@ class ImageConstants {
       "description":
           "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
       "imageUrl":
-          "https://i.pinimg.com/564x/f9/f4/0e/f9f40eda4f4571a5a4d4a7e0db5701cf.jpg",
+          "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p15684_p_v10_ag.jpg",
     },
     {
       "title": "Forrest Gump",
@@ -125,7 +136,7 @@ class ImageConstants {
       "description":
           "The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate, and other historical events unfold from the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart.",
       "imageUrl":
-          "https://i.pinimg.com/564x/f9/f4/0e/f9f40eda4f4571a5a4d4a7e0db5701cf.jpg",
+          "https://m.media-amazon.com/images/S/pv-target-images/2d0c9e38968936e6711c7fb2bc7895b82d8bb9178b5a854e14dffa4b17b88487.jpg",
     },
     {
       "title": "The Godfather",
@@ -133,7 +144,7 @@ class ImageConstants {
       "description":
           "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
       "imageUrl":
-          "https://i.pinimg.com/564x/f9/f4/0e/f9f40eda4f4571a5a4d4a7e0db5701cf.jpg",
+          "https://m.media-amazon.com/images/I/81fc+fWtALL._AC_UF1000,1000_QL80_.jpg",
     },
     {
       "title": "Fight Club",
@@ -141,7 +152,7 @@ class ImageConstants {
       "description":
           "An insomniac office worker and a devil-may-care soapmaker form an underground fight club that evolves into something much, much more.",
       "imageUrl":
-          "https://i.pinimg.com/564x/f9/f4/0e/f9f40eda4f4571a5a4d4a7e0db5701cf.jpg",
+          "https://m.media-amazon.com/images/M/MV5BMGFlNWM0NWYtMWI3OS00OTMyLTg0YWYtNjhlNjRiYWUyZjRlXkEyXkFqcGdeQXVyMTUzNTgzNzM0._V1_FMjpg_UX1000_.jpg",
     },
     {
       "title": "The Matrix",
@@ -149,7 +160,7 @@ class ImageConstants {
       "description":
           "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
       "imageUrl":
-          "https://i.pinimg.com/564x/f9/f4/0e/f9f40eda4f4571a5a4d4a7e0db5701cf.jpg",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeO3hsz8A07Iby4UtPaA3U-bDbXl99_xmCYNfdsuFYQQ&s",
     },
     {
       "title": "Schindler's List",
@@ -157,7 +168,7 @@ class ImageConstants {
       "description":
           "In German-occupied Poland during World War II, Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazi Germans.",
       "imageUrl":
-          "https://i.pinimg.com/564x/f9/f4/0e/f9f40eda4f4571a5a4d4a7e0db5701cf.jpg",
+          "https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
     },
     {
       "title": "The Lord of the Rings: The Return of the King",
@@ -165,7 +176,7 @@ class ImageConstants {
       "description":
           "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
       "imageUrl":
-          "https://i.pinimg.com/564x/f9/f4/0e/f9f40eda4f4571a5a4d4a7e0db5701cf.jpg",
+          "https://m.media-amazon.com/images/M/MV5BNDgwY2YyNjctZTMxZC00ZTRlLThhN2QtMTAwYjUyODcyZDYxXkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_FMjpg_UX1000_.jpg",
     },
   ];
 }

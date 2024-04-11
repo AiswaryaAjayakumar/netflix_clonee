@@ -30,7 +30,6 @@ class GlobalUserNameScreen extends StatelessWidget {
             borderRadius: BorderRadius.circular(20),
             image:
                 DecorationImage(image: AssetImage(imgUrl), fit: BoxFit.cover),
-            color: Colors.amber,
           ),
         ),
         SizedBox(

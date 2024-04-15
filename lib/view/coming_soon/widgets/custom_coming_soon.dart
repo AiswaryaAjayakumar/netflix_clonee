@@ -23,7 +23,7 @@ class CustomComingSoon extends StatelessWidget {
         decoration: BoxDecoration(
             //color: Colors.red,
             image: DecorationImage(
-                image: NetworkImage(notificationImage), fit: BoxFit.cover)),
+                image: NetworkImage(notificationImage), fit: BoxFit.fill)),
       ),
       Padding(
         padding: const EdgeInsets.symmetric(vertical: 15, horizontal: 30),
